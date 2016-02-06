@@ -11,6 +11,8 @@ public class PrimeNumbers implements PrimeNumberService {
     public int nextPrime(int n) {
         boolean isPrime = false;
 
+        if (n == 1)
+            return 2;
         int start = 2; // start at 2
 
         while (!isPrime) {
