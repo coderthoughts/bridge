@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.coderthoughts.bridge</groupId>
+    <groupId>org.coderthoughts.primes</groupId>
     <artifactId>reactor</artifactId>
     <version>0.1.0-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
@@ -31,7 +31,7 @@
         <extensions>true</extensions>
         <configuration>
           <instructions>
-            <Export-Package>org.coderthoughts.bridge.impl</Export-Package>
+            <Export-Package>org.coderthoughts.primes.impl</Export-Package>
           </instructions>
         </configuration>
       </plugin>
