@@ -5,8 +5,6 @@ public class PrimeNumbers {
     public int nextPrime(int n) {
         boolean isPrime = false;
 
-        if (n == 1)
-            return 2;
         int start = 2; // start at 2
 
         while (!isPrime) {
@@ -25,14 +23,5 @@ public class PrimeNumbers {
             }
         }
         return n;
-    }
-
-    // Courtesy of http://stackoverflow.com/a/20798440
-    public boolean isPrime(int num) {
-        if (num == 2 ) return true;
-        if (num % 2 == 0) return false;
-        for (int i = 3; i * i <= num; i += 2)
-            if (num % i == 0) return false;
-        return true;
     }
 }
