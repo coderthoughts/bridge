@@ -1,5 +1,10 @@
 package org.coderthoughts.bridge.impl;
 
+import org.osgi.annotation.versioning.ProviderType;
+import org.osgi.service.component.annotations.Component;
+
+@ProviderType
+@Component(service=PrimeNumbers.class) // TODO do we need service?
 public class PrimeNumbers {
     // Courtesy of http://stackoverflow.com/a/22083190
     public int nextPrime(int n) {
