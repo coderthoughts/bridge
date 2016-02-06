@@ -1,6 +1,6 @@
-package org.coderthoughts.bridge.client;
+package org.coderthoughts.primes.client;
 
-import org.coderthoughts.bridge.impl.PrimeNumbers;
+import org.coderthoughts.primes.impl.PrimeNumbers;
 
 public class PrimeClient {
     private PrimeNumbers primeGenerator = new PrimeNumbers();

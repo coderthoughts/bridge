@@ -1,4 +1,4 @@
-package org.coderthoughts.bridge.impl;
+package org.coderthoughts.primes.impl;
 
 public class PrimeNumbers {
     // Courtesy of http://stackoverflow.com/a/22083190

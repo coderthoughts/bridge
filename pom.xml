@@ -1,7 +1,7 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.coderthoughts.bridge</groupId>
+  <groupId>org.coderthoughts.primes</groupId>
   <artifactId>reactor</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
