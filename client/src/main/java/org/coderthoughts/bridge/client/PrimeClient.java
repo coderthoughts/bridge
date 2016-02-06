@@ -1,6 +1,6 @@
 package org.coderthoughts.bridge.client;
 
-import org.coderthoughts.bridge.impl.PrimeNumbers;
+import org.coderthoughts.bridge.service.PrimeNumberService;
 import org.osgi.service.component.annotations.Activate;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Deactivate;
@@ -9,7 +9,7 @@ import org.osgi.service.component.annotations.Reference;
 @Component
 public class PrimeClient {
     @Reference
-    private PrimeNumbers primeGenerator;
+    private PrimeNumberService primeGenerator;
 
     private volatile boolean keepRunning = false;
 
