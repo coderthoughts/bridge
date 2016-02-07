@@ -1,6 +1,6 @@
-package org.coderthoughts.bridge.impl;
+package org.coderthoughts.primes.impl;
 
-import org.coderthoughts.bridge.service.PrimeNumberService;
+import org.coderthoughts.primes.service.PrimeNumberService;
 import org.osgi.annotation.versioning.ProviderType;
 import org.osgi.service.component.annotations.Component;
 
