@@ -1,6 +1,6 @@
-package org.coderthoughts.bridge.client;
+package org.coderthoughts.primes.client;
 
-import org.coderthoughts.bridge.service.PrimeNumberService;
+import org.coderthoughts.primes.service.PrimeNumberService;
 import org.osgi.service.component.annotations.Activate;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Deactivate;

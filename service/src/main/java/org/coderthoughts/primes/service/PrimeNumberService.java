@@ -1,4 +1,4 @@
-package org.coderthoughts.bridge.service;
+package org.coderthoughts.primes.service;
 
 import org.osgi.annotation.versioning.ProviderType;
 
