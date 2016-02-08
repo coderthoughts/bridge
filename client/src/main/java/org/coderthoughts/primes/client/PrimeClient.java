@@ -5,10 +5,11 @@ import org.osgi.service.component.annotations.Activate;
 import org.osgi.service.component.annotations.Component;
 import org.osgi.service.component.annotations.Deactivate;
 import org.osgi.service.component.annotations.Reference;
+import org.osgi.service.component.annotations.ReferencePolicyOption;
 
 @Component
 public class PrimeClient {
-    @Reference
+    @Reference(policyOption=ReferencePolicyOption.GREEDY)
     private PrimeNumbers primeGenerator;
 
     private volatile boolean keepRunning = false;
