@@ -7,6 +7,11 @@ import org.osgi.service.component.annotations.Component;
 @ProviderType
 @Component
 public class PrimeNumbers implements PrimeNumberService {
+    @Override
+    public String getServiceName() {
+        return "PrimeNumbers";
+    }
+
     // Courtesy of http://stackoverflow.com/a/22083190
     public int nextPrime(int n) {
         boolean isPrime = false;
